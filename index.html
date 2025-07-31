@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Land Price Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 Land Price Calculator</h1>
+
+    <label for="location">Select Location:</label>
+    <select id="location">
+      <option value="">-- Choose --</option>
+      <option value="jaipur">Jaipur</option>
+      <option value="udaipur">Udaipur</option>
+      <option value="jodhpur">Jodhpur</option>
+      <option value="kota">kota</option>
+    </select>
+
+    <label for="area">Enter Area (sq. ft):</label>
+    <input type="number" id="area" placeholder="e.g., 1200" />
+
+    <button id="calcBtn">Calculate Price</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
